@@ -1,0 +1,160 @@
+::-webkit-scrollbar {
+	background-color: #161617!important;
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #2a2a2a!important;
+	border-radius: 5px;
+}
+
+.logo-color{
+	content: url('/img/layout/logo-funpay-white.svg');
+}
+
+body, .chat, .showcase, .tbl-footer, .bg-light-color, .wrapper, #content, .wrapper-footer{
+	background-color: #161617!important;  
+}
+
+a, h1, #footer, .profile, .user-link-name, .offer, .page-header, .tc-header, .alert-info, .page-content-full{
+	color: rgba(255, 255, 255, .4)!important;
+}
+
+.message-text, .title-mini, .game-title a{
+	color: rgba(255, 255, 255, .5)!important;
+}
+
+.tc-item, .media-user-name a, .chat-panel a, .param-list, .review-list, .review-item-text{
+	color: rgba(255, 255, 255, .6)!important;
+}
+
+.chat-contacts, .chat-float, .chat-detail, .chat-promo{
+	color: rgba(255, 255, 255, .6)!important;
+	background-color: #1a1a1a!important;
+	border-color: #1a1a1a!important;
+}
+
+.cd-container a{
+	color: rgba(255, 255, 255, .8)!important;
+}
+
+input, select, #footer, .navbar-default, .bg-light-style, .chat-message-container, .chat-form, .chat-header, .alert-info, .chat-contacts, .chat-float, .chat-detail, .chat-full-header, .contact-item, .tc:not(.tc-selling):not(.tc-finance) .tc-item>div{
+	border-color: #4a4a4a!important;
+}
+
+.btn-gray, .chat-control, .dropdown-toggle, .dropdown-menu, .dyn-table-continue, .lazyload-more, .btn-wide, .btn-plus, .js-lot-raise{
+	color: rgba(255, 255, 255, .4)!important;
+	background-color: #2a2a2a!important;
+	border-color: #2a2a2a!important;
+}
+
+.btn-gray:hover, .chat-control:hover, .dropdown-menu li:hover a, .dyn-table-continue:hover, .lazyload-more:hover, .btn-wide:hover, .btn-plus:hover, .js-lot-raise:hover{
+	color: rgba(255, 255, 255, .6)!important;
+	background-color: #2c2c2c!important;
+	border-color: #2c2c2c!important;
+}
+
+.form-control, .switch, .review-item-answer{
+	background-color: #2a2a2a!important;
+	border-color: #2a2a2a!important;
+	color: rgba(255, 255, 255, .6)!important;
+}
+
+.bg-light-color, .container, .navbar-default, .offer, .user-link, .dropdown .dropdown-toggle, .alert-info, #header, .notice-button-container, .notice-button-container:hover, .bg-light-color, .dyn-table-body a.tc-item.warning, .tc.table-hover .tc-item.transaction-status-waiting, .tc-item.transaction-status-waiting {
+	background-color: transparent!important;
+}
+
+.counter-item, .chat-message-list .inside{
+	background-color: #1a1a1a!important;
+}
+
+.counter-item:hover{
+	background-color: #2a2a2a!important;
+}
+
+.js-lot-offer-edit, .btn-primary, .js-btn-delete-cancel{
+	color: rgba(255, 255, 255, .8)!important;
+	background-color: #173870!important;
+	border-color: #173870!important;
+}
+
+.js-lot-offer-edit:hover, .btn-primary:hover, .js-btn-delete-cancel:hover{
+	color: rgba(255, 255, 255, .9)!important;
+	background-color: #274880!important;
+	border-color: #274880!important;
+}
+
+.contact-item:hover, .bootstrap-select .dropdown-menu>.active>a{
+	background-color: #2c2c2c!important;
+}
+
+.tc-item:hover, a.tc-item.warning:hover{
+	background-color: #1c1c1c!important;
+}
+
+.modal-header, .modal-body{
+	color: rgba(255, 255, 255, .8)!important;
+	background-color: #2a2a2a!important;
+	border-color: #2a2a2a!important;
+}
+
+.payment-card{
+	color: rgba(255, 255, 255, .5)!important;
+	background-color: #2a2a2a!important;
+	border-color: #2a2a2a!important;
+}
+
+.modal-header .form-control, .modal-body .form-control{
+	border-color: rgba(0, 0, 0, .4)!important;
+}
+
+.active a{
+	font-weight: 800;
+	color: rgba(255, 255, 255, .6)!important;
+}
+
+.chat-message-list-date:before{
+	background: #8c8c8c!important;
+}
+
+.filter-option{
+	border: 1px solid rgba(0, 0, 0, .4) !important;
+}
+
+#content > div > div > div.modal.fade.in > div > div > div.modal-body > div > form > div.page.page-main > div.inputs > div:nth-child(2) > div > div > button{
+    border: 1px solid rgba(0, 0, 0, .4) !important; 
+}
+
+#comments textarea{
+	padding-left: 10px
+}
+
+.tc-item.warning{
+	background-color: #7e602c!important;
+}
+
+.tc-item.warning:hover{
+	background-color: #8e703c!important;
+}
+
+.logo-color, .logo-white{
+	opacity: 0.6;
+}
+
+.btn-danger{
+	background-color: #580a14!important;
+	border-color: #580a14!important;
+}
+
+.btn-danger:hover{
+	background-color: #680a14!important;
+	border-color: #680a14!important;
+}
+
+.tc-item.info{
+	background-color: #1c3956!important;
+}
+
+.chat-msg-text {
+    color: rgba(255, 255, 255, .6)!important;
+}

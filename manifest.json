@@ -1,0 +1,30 @@
+{
+    "author": "Flirik",
+	"manifest_version": 3,
+    "name": "Dark FunPay",
+    "version": "1.0",
+    "description": "Тёмная тема для FunPay",
+    "icons": {
+	    "128": "128.png"
+    },
+    "content_scripts": [
+	    {
+ 		   "matches": [ "https://funpay.com/*" ],
+	 	   "js": [ "app.js" ],
+		   "css": [ "app.css" ]
+	    },
+		{
+ 		   "matches": [ "https://funpay.com/" ],
+		   "css": [ "appBanner.css" ]
+	    },
+		{
+ 		   "matches": [ "https://funpay.com/users/*" ],
+		   "js": [ "appOrders.js" ]
+	    },
+		{
+ 		   "matches": [ "https://funpay.com/orders/trade*" ],
+		   "js": [ "appTrade.js" ]
+	    }
+    ]
+	
+}
