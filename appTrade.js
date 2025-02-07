@@ -15,7 +15,7 @@ setTimeout(() => {
 					let price = element.querySelector("div.tc-price.text-nowrap.tc-seller-sum").innerHTML.split(' ');
 					totalSum = totalSum + Number(price[0]);
 				}else{
-					//console.log(element);
+					console.log(element);
 				}
 			}
 		)
